@@ -1,0 +1,18 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379933675000 2310 0033370f23fed7c9c4c92cc8ce0caa9d29b00b7f /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_visa.png
+1379933675000 2511 090ec60b4a99dc49e7983483c92816d89f8da26b /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_china_union_pay.png
+1379933675000 2387 858b0ffc0ecf45f44a530af190910360c3ccadab /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_diners_club.png
+1379933675000 2249 2d6b94bdf5adfcd4e59aaf2cab72bcb2abaf6a41 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_unknown.png
+1379933675000 2304 ebffba4eaf2b4b567d8fabcaee5e3dbe6d536e2c /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_jcb.png
+1379933675000 2630 01eb5844f6c0327ed156491c503871d7f18b20ca /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_amex.png
+1379933675000 5860 3683683e9e43af41db462259bf3614f86466d755 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/layout/cc_editor.xml
+1379933675000 2456 b662a275723b469603e59b6015767907253709d1 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/values/values.xml
+1379933675000 568 a0575ae0bcfe83093dccd0ac0963888bdcb55e1d /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/values-tvdpi/values.xml
+1379933675000 2586 7d9bf946223c8f9fb41139a3ea8451645f0a41d6 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_mastercard.png
+1379933675000 2574 7cbb0a80689da95c9758ccbb9b8632edc6630476 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable-mdpi/ic_launcher.png
+1379933675000 2193 4007d249712b39700f16df1aad16ed8392b46c17 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable/brand_discover.png
+1379933675000 4147 91c0eed42bb6ffbb3e720f4309d06edaa5ab81b1 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable-hdpi/ic_launcher.png
+1379933675000 1723 dab9122f41b8f635738ab44b288f12412bbdf3ce /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/drawable-ldpi/ic_launcher.png
+1379933675000 568 86af4662f6da13d0b2e75a5ce727bd6e2e8caf1e /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/build/res/all/release/values-xhdpi/values.xml

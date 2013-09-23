@@ -1,0 +1,21 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1372331116000 2310 0033370f23fed7c9c4c92cc8ce0caa9d29b00b7f /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_visa.png
+1372331116000 2249 2d6b94bdf5adfcd4e59aaf2cab72bcb2abaf6a41 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_unknown.png
+1372331116000 2387 858b0ffc0ecf45f44a530af190910360c3ccadab /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_diners_club.png
+1372331116000 4147 91c0eed42bb6ffbb3e720f4309d06edaa5ab81b1 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable-hdpi/ic_launcher.png
+1372331116000 2304 ebffba4eaf2b4b567d8fabcaee5e3dbe6d536e2c /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_jcb.png
+1372331116000 446 95de45a8ec4ded0a6caa27b6d25d6feef456753e /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values-tvdpi/dimens.xml
+1372331116000 1723 dab9122f41b8f635738ab44b288f12412bbdf3ce /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable-ldpi/ic_launcher.png
+1372331116000 2574 7cbb0a80689da95c9758ccbb9b8632edc6630476 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable-mdpi/ic_launcher.png
+1372331116000 833 17a95af29fa8fc8edae86803196380984c2c59a4 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/strings.xml
+1372331116000 672 9fc341339032c73efdaa4037508477311f7eb14c /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/ids.xml
+1372331116000 240 3939ade2b91277c0d4d920a4c9d9c8e598013b5a /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/attrs.xml
+1372331116000 2630 01eb5844f6c0327ed156491c503871d7f18b20ca /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_amex.png
+1372331116000 446 3de68bd71cf338e398917ab2d8934dc76e57a39f /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/dimens.xml
+1372331116000 446 3de68bd71cf338e398917ab2d8934dc76e57a39f /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values-xhdpi/dimens.xml
+1372331116000 5748 0a3371d1ac17a7568315c2440257356479f6711b /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/layout/cc_editor.xml
+1372331116000 2511 090ec60b4a99dc49e7983483c92816d89f8da26b /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_china_union_pay.png
+1372331116000 2193 4007d249712b39700f16df1aad16ed8392b46c17 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_discover.png
+1372331116000 2586 7d9bf946223c8f9fb41139a3ea8451645f0a41d6 /home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/drawable/brand_mastercard.png

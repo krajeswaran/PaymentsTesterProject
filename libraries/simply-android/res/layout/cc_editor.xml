@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@id/cc_icon"
+        android:contentDescription="@string/cc_icon_description"
+        android:src="@drawable/brand_unknown"
+        android:scaleType="fitCenter"
+        android:paddingLeft="@dimen/icon_left_padding"
+        android:paddingRight="@dimen/icon_right_padding"
+        android:paddingTop="@dimen/icon_top_padding"
+        android:paddingBottom="@dimen/icon_bottom_padding"
+        android:layout_alignBottom="@id/cc_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@id/cc_field"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/cc_field_hint"
+        android:paddingLeft="@dimen/edit_field_icon_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@id/cc_exp_month"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_alignLeft="@id/cc_field"
+        android:layout_below="@id/cc_field"
+        android:hint="@string/cc_exp_month_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@id/cc_exp_separator"
+        android:layout_alignBottom="@id/cc_exp_month"
+        android:layout_toRightOf="@id/cc_exp_month"
+        android:layout_below="@id/cc_field"
+        android:text="@string/slash"
+        android:paddingTop="@dimen/expiration_date_separator_top_padding"
+        android:textSize="@dimen/expiration_date_separator_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@id/cc_exp_year"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_alignBottom="@id/cc_exp_month"
+        android:layout_toRightOf="@id/cc_exp_separator"
+        android:layout_below="@id/cc_field"
+        android:hint="@string/cc_exp_year_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@id/cc_cvc"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_below="@id/cc_field"
+        android:layout_alignRight="@id/cc_field"
+        android:hint="@string/three_digit_cvc_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@id/cc_address_fields"
+        android:layout_alignLeft="@id/cc_field"
+        android:layout_alignRight="@id/cc_field"
+        android:layout_below="@id/cc_cvc"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@id/cc_address_name"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/cc_name_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@id/cc_address_line1"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/cc_line1_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@id/cc_address_line2"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/cc_line2_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@id/cc_address_city"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/cc_city_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@id/cc_address_state"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="@string/cc_state_hint"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@id/cc_address_zip"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="number"
+                android:hint="@string/cc_zip_hint"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@id/cc_address_country"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/cc_country_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

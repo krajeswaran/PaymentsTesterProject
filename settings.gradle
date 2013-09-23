@@ -1,0 +1,1 @@
+include ":libraries:stripe", ":libraries:simply-android", ':PaymentsTester'

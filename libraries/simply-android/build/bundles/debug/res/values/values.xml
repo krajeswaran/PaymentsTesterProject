@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/attrs.xml -->
+    <declare-styleable name="CreditCardEditor">
+        <attr name="showAddress" format="boolean" />
+        <attr name="showCountry" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/dimens.xml -->
+    <dimen name="edit_field_icon_space">40dp</dimen>
+    <dimen name="expiration_date_separator_text_size">20dp</dimen>
+    <dimen name="expiration_date_separator_top_padding">4dp</dimen>
+    <dimen name="icon_bottom_padding">4dp</dimen>
+    <dimen name="icon_left_padding">4dp</dimen>
+    <dimen name="icon_right_padding">4dp</dimen>
+    <dimen name="icon_top_padding">4dp</dimen>
+    <!-- From: file:/home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/ids.xml -->
+    <item name="cc_address_city" type="id"/>
+    <item name="cc_address_country" type="id"/>
+    <item name="cc_address_fields" type="id"/>
+    <item name="cc_address_line1" type="id"/>
+    <item name="cc_address_line2" type="id"/>
+    <item name="cc_address_name" type="id"/>
+    <item name="cc_address_state" type="id"/>
+    <item name="cc_address_zip" type="id"/>
+    <item name="cc_cvc" type="id"/>
+    <item name="cc_exp_month" type="id"/>
+    <item name="cc_exp_separator" type="id"/>
+    <item name="cc_exp_year" type="id"/>
+    <item name="cc_field" type="id"/>
+    <item name="cc_icon" type="id"/>
+    <!-- From: file:/home/thesaneone/src/PaymentsTesterProject/libraries/simply-android/res/values/strings.xml -->
+    <string name="cc_address_label">Address</string>
+    <string name="cc_city_hint">City</string>
+    <string name="cc_country_hint">Country</string>
+    <string name="cc_exp_month_hint">mm</string>
+    <string name="cc_exp_year_hint">yy</string>
+    <string name="cc_field_hint">0000 0000 0000 0000</string>
+    <string name="cc_icon_description">Credit Card Icon</string>
+    <string name="cc_line1_hint">Address Line 1</string>
+    <string name="cc_line2_hint">Address Line 2</string>
+    <string name="cc_name_hint">Name</string>
+    <string name="cc_state_hint">State</string>
+    <string name="cc_zip_hint">Zip</string>
+    <string name="four_digit_cvc_hint">0000</string>
+    <string name="slash">/</string>
+    <string name="three_digit_cvc_hint">000</string>
+
+</resources>

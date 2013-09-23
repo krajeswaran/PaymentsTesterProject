@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/thesaneone/src/PaymentsTesterProject/libraries/stripe/res" />
+        <source path="/home/thesaneone/src/PaymentsTesterProject/libraries/stripe/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/thesaneone/src/PaymentsTesterProject/libraries/stripe/src/debug/res" />
+    </dataSet>
+
+</merger>

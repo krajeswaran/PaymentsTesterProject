@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android-library'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 17
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+                java.srcDirs = ['src']
+                resources.srcDirs = ['src']
+                res.srcDirs = ['res']
+        }
+    }
+}
+
+dependencies {
+    compile files(':PaymentsTester/libs/android-support-v4.jar')
+    compile files(':PaymentsTester/libs/stripe-java-latest.jar')
+    compile files(':PaymentsTester/libs/gson-2.2.4.jar')
+    compile fileTree(dir: 'libs', include:'**/*.jar')
+}
